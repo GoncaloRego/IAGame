@@ -282,6 +282,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Pathfinding\Grid.cs" />
+    <Compile Include="Assets\Pathfinding\Heap.cs" />
+    <Compile Include="Assets\Pathfinding\Node.cs" />
+    <Compile Include="Assets\Pathfinding\Pathfinding.cs" />
+    <Compile Include="Assets\Pathfinding\PathRequestManager.cs" />
+    <Compile Include="Assets\Pathfinding\Unit.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -336,10 +342,10 @@
     <Compile Include="Assets\Scripts\IAScripts\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="Assets\Scripts\IAScripts\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Assets\Scripts\PerlinNoise.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TerrainGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Player\Shader\Outlined Diffuse.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />

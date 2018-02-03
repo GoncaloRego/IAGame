@@ -5,13 +5,14 @@ using UnityEngine;
 public class Unit : MonoBehaviour
 {
     public Transform target;
-    private float speed = 20f;
+    private float speed = 10f;
     private Vector3[] path;
     private int targetIndex;
+    private EnemyDecision enemyDecision;
 
     void Start()
     {
-        PathRequestManager.RequestPath(transform.position, target.position, OnPathFound);
+        enemyDecision = GetComponent<EnemyDecision>();
     }
 
     public void OnPathFound(Vector3[] newPath, bool pathSuccessful)
@@ -21,6 +22,15 @@ public class Unit : MonoBehaviour
             path = newPath;
             StopCoroutine("FollowPath");
             StartCoroutine("FollowPath");
+        }
+    }
+
+    void Update()
+    {
+        Debug.Log("Is Close: " + enemyDecision.isClose);
+        if (enemyDecision.isClose)
+        {
+            PathRequestManager.RequestPath(transform.position, target.position, OnPathFound);
         }
     }
 

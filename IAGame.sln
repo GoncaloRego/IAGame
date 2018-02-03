@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAGame", "IAGame.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAGame.Editor", "IAGame.Editor.csproj", "{F017DE77-ED50-2D22-7C73-0B5B80E3064F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.package-manager-ui.Editor", "com.unity.package-manager-ui.Editor.csproj", "{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{F017DE77-ED50-2D22-7C73-0B5B80E3064F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F017DE77-ED50-2D22-7C73-0B5B80E3064F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F017DE77-ED50-2D22-7C73-0B5B80E3064F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
